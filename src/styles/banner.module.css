@@ -1,0 +1,25 @@
+.centerContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* This ensures the container takes the full viewport height */
+    color: var(--white);
+}
+
+h1{
+    text-align: center;
+    font-size: 55px !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    text-align: center;
+    font-size: 24px;
+    color: #a4acc4;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.myName {
+    color: var(--primary);
+}

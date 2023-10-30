@@ -1,0 +1,76 @@
+:root {
+    /* --primary: #037FFF; */
+    --primary: #40E0D0;
+    --secondary: #071437;
+    --primary-fade: #daf3f5;
+    --primary-text-color: #FFFFFF;
+    --white: #ffffff;
+    --black: #10121B;
+    --card-bg: #191D2B;
+    --header-text-color: #ffffff;
+    --light: #dedcdc;
+    /* Matching color for dark */
+    --dark-light: #585757;
+    /* Matching color for dark-light */
+    --gray: #FCFCFC;
+    --container-border: #CCCCCC;
+    --container-border-fade: #eeeeee;
+    --list-item-border-radius: 2px;
+    --btn-border-radius: 2px;
+    --btn-border: 0px;
+    --input-box-border-radius: 7.6px;
+    --btn-border-color: #E0E0E0;
+    --link-color: #0F7999;
+    --icon: #CCCCCC;
+    --main: #2B2B2B;
+    --label-border-color: #65ADFF;
+    --bg-color: #F1FAFF;
+    --form-border-color: #DEE2E6;
+    --box-shadow-bottom: 0px 2px 4px 0px var(--container-border);
+    --box-shadow-right: 2px 0px 5px 0px var(--container-border);
+    --font-h1: 1.8rem;
+    --font-h2: 1.5rem;
+    --font-h3: 1.2rem;
+    --font-h4: 1rem;
+    --font-h5: .9rem;
+    --font-h6: .6rem;
+    --font-size-1: .6rem;
+    --font-size-2: .8rem;
+    --font-size-3: .9rem;
+    --font-size-4: 1rem;
+    --font-size-5: 1.5rem;
+    --font-size-6: 2rem;
+}
+
+body{
+    background-color: var(--black) !important;
+}
+.card{
+    background-color: var(--card-bg) !important;
+    height: 100vh !important;
+}
+
+
+.main-navbar {
+    background-color: var(--primary);
+}
+
+.navbar-brand {
+    color: var(--secondary) !important;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: var(--font-size-5) !important;
+}
+
+.nav-menu a {
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    text-decoration: none !important;
+    color: var(--secondary) !important;
+    margin-right: 20px;
+    transition: text-decoration 0.2s, color 0.2s !important;
+}
+
+.nav-menu a:hover {
+    color: var(--dark-light) !important;
+}
