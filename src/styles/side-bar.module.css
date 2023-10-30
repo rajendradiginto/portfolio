@@ -1,0 +1,43 @@
+.centerContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border-right: 2px solid #709EC4;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-bottom: 2px solid #709EC4;
+}
+
+.profileImage {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid #2E344E;
+    box-shadow: 2px 2px 4px #191D2B;
+    /* Fixed the box-shadow syntax */
+}
+
+ul li {
+    text-align: center;
+    list-style-type: none;
+    padding: 8px;
+    margin: 4px;
+    transition: background-color 0.9s; 
+}
+
+ul li:hover {
+    background-color: var(--primary);
+    font-weight: 500;
+    color: var(--link-color);
+}
+
+ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style-type: none;
+}
