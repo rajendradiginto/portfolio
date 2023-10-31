@@ -4,6 +4,7 @@
     align-items: center;
     height: 100vh;
     border-right: 2px solid #709EC4;
+    background-color: #191D2B;
 }
 
 .header {
@@ -16,10 +17,9 @@
 .profileImage {
     width: 200px;
     height: 200px;
-    border-radius: 50%;
+    border-radius: 100%;
     border: 10px solid #2E344E;
     box-shadow: 2px 2px 4px #191D2B;
-    /* Fixed the box-shadow syntax */
 }
 
 ul li {
@@ -27,7 +27,7 @@ ul li {
     list-style-type: none;
     padding: 8px;
     margin: 4px;
-    transition: background-color 0.9s; 
+    transition: background-color 0.9s;
 }
 
 ul li:hover {
