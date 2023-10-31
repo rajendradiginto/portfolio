@@ -7,6 +7,7 @@ import AboutUs from './pages/about-us';
 import Home from './pages/home';
 import Sidebar from './components/side-bar';
 import { Container, Row, Col } from 'react-bootstrap';
+import BackgroundAnimation from './components/background-design/canvas';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Sidebar />
           </Col>
           <Col md={9}>
+              <BackgroundAnimation />
             <Routes>
               <Route path='/' element={<Home />} />
               <Route path='/about-us' element={<AboutUs />} />

@@ -9,7 +9,7 @@
 
 h1{
     text-align: center;
-    font-size: 55px !important;
+    font-size: 50px !important;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 p{
@@ -23,3 +23,16 @@ p{
 .myName {
     color: var(--primary);
 }
+
+.bannericon{
+    margin-right: 28px;
+    width: 34px;
+    height: 34px;
+}
+
+.iconContainer {
+    display: flex; /* Use Flexbox to arrange icons in a row */
+    justify-content: center; /* Center icons horizontally within the container */
+    align-items: center; /* Center icons vertically within the container */
+  }
+  
